@@ -1,0 +1,117 @@
+.TomatoOne {
+    background-image: url(../images/TomatoOne/tomatoOneBg.svg);
+    background-color: #f1f1f1;
+    padding-top: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #fff;
+}
+
+
+.goBack a {
+    font-size: 14px;
+    color: #57984C;
+    
+}
+
+.goBack {
+    margin-bottom: 18px;
+}
+
+.goBack img {
+    margin-right: 10px;
+}
+
+.TomatoOne {
+    padding-bottom: 170px;
+}
+
+.TomatoOne .title_text h1, h2{
+    font-size: 54px;
+}
+
+.TomatoOne .title_text h2{
+    color: #57984C;
+}
+
+.Logo2 {
+    margin-left: -30px;
+    padding-top: 30px;
+}
+
+.Logo2_text {
+    color: #CF2333;
+    font-size: 30px; 
+}
+
+.TomatoImage {
+    margin-top: 10px;
+}
+
+.TomatoImage img {
+    width: 100%;
+}
+
+.textBlock {
+    font-size: 20px;
+}
+
+.textBlock_item {
+    margin-top: 50px;
+}
+
+.textBlock_item h3 {
+    font-size: 20px;
+    color: #57984C;
+}
+
+.textBlock_item hr {
+    background-color: #57984C;
+    
+}
+
+.textBlock_item b {
+    font-size: 22px;
+}
+
+.textBlock_item li {
+    list-style-type:disc;
+    color: #57984C;
+    padding-top: 10px;
+}
+
+
+.textBlock_item span {
+    color: #324950;
+    font-size: 18px;
+}
+
+.download {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.download button {
+    background-color: transparent;
+    padding: 8px 30px;
+    border: 2px solid #57984C;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.download button img {
+    height: 20px;
+}
+
+.download button:hover {
+    background-color: rgb(87, 152, 76, 0.1);
+}
+
+.download span {
+    padding-left: 10px;
+    color: #57984C;
+}

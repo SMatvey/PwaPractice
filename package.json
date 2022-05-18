@@ -1,0 +1,23 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Practic ",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "jquery": "^3.6.0"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMatvey/SMatvey.github.io.git"
+  },
+  "author": "Matvey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMatvey/SMatvey.github.io/issues"
+  },
+  "homepage": "https://github.com/SMatvey/SMatvey.github.io#readme"
+}

@@ -1,0 +1,90 @@
+section {
+    background-color: #bbffc3;
+}
+
+hr {
+    background-color: #324950;
+}
+
+p {
+    font-size: 17px;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.headerImg {
+    background-image: url(../images/GOnion/BgGOnions.jpg);
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Profile .title_text {
+    font-size: 44px;
+}
+
+.Profile {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.XXX {
+    margin-bottom: 30px;
+}
+
+.StickLeft {
+    border-left: 4px solid #2cf16a;
+}
+
+.StickLeft .StickLeft_text {
+    margin-left: 25px;
+}
+
+.TomatoType h1 {
+    font-size: 20px;
+    max-width: 290px;
+}
+
+.TomatoType .container {
+    background-color: #fff;
+}
+
+.TomatoType_items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.products {
+    background-color: #bbffc3;
+}
+
+.products h2 {
+    text-align: center;
+    color: #57984C;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.products h3 {
+    text-align: center;
+    color: #57984C;
+    font-size: 15px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+}
+
+.products .item img {
+    width: 100%;
+    height: 300px;
+}
+
+.products .item_text{
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}

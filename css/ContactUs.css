@@ -1,0 +1,99 @@
+.headerImg {
+    background-image: url(../images/ContactUs/TopImages.png);
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.ContactUs {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.XXX_C {
+    padding-bottom: 30px;
+}
+
+.ContactUs_title {
+    font-size: 44px;
+}
+
+.address_text .greenText{
+    color: #57984C;
+}
+
+.ContactUs_item input, textarea {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 100%;
+    padding: 13px;
+}
+
+.ContactUs_item select {
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    width: 100%;
+    padding: 16px;
+}
+
+.ContactUs_item img {
+    width: 120px;
+    height: 50px;
+}
+
+.ContactUs_item textarea {
+    height: 387px;
+    margin-bottom: -7px;
+    resize: none;
+}
+
+.code_button input {
+    background-color: #57984C;
+    border-radius: 60px;
+    padding: 13px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.code_button input:hover {
+    background: #67b15a;
+}
+
+
+.ContactUs_item {
+    padding-top: 20px;
+}
+
+
+.address {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.address p {
+    margin-bottom: 0;
+}
+
+.address h3 {
+    font-size: 20px;
+    color: #57984C;
+}
+
+.address_text {
+    text-align: center;
+}
+
+.address_text .line {
+    padding: 20px;
+}
+
+.table .Imm img {
+    height: 60px;
+    width: 60px;
+}

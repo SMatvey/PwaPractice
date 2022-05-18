@@ -1,0 +1,165 @@
+@font-face {
+    font-family: "RotondaBold";
+    src: url("../fonts/RotondaBold.svg#RotondaBlod") format("svg"),
+         url("../fonts/RotondaBold.ttf") format("truetype"),
+         url("../fonts/RotondaBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+@font-face {
+    font-family: "RotondaMedium";
+    src: url("../fonts/RotondaMedium.svg#RotondaMedium") format("svg"),
+         url("../fonts/RotondaMedium.ttf") format("truetype"),
+         url("../fonts/RotondaMedium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../fonts/') format('woff'),
+        url('../fonts/') format('truetype'),
+        url('../fonts/RobotoSlab-Regular.svg#RobotoSlab-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype'),
+        url('Roboto-Regular.svg#Roboto-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Roboto Slab';
+    color: #324950;
+    background-color: #EDEDED;
+}
+
+h1, h2, h3 {
+    font-family: 'RotondaBold';
+}
+
+button {
+    font-family: "RotondaMedium";
+    cursor: pointer;
+}
+
+input:focus, button:focus, textarea:focus {
+    outline: none;
+
+}
+
+.Menu {
+    padding-top: 50px;
+}
+header {
+    padding-top: 19px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.Menu_item {
+    margin: 0 7px;
+}
+
+.product_item{
+    margin: 0 30px;
+}
+
+.product_item img{
+    height: 50px;
+}
+
+
+
+.Menu_item a {
+    font-size: 18px;
+    color: #324950;
+    font-family: 'RotondaMedium';
+}
+
+.MenuUp {
+    display: block;
+}
+
+.BurgerMenu {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+}
+
+.BurgerMenu img {
+    height: 30px;
+}
+
+.openMenu {
+    visibility: hidden;
+}
+
+.closeMenu {
+    display: none;
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.active {
+    z-index: 3;
+    position: absolute;
+    background-color: #4a6e47; 
+    width: 100%;
+    right: 0;
+}
+
+.active a {
+    color: #fff;
+}
+
+.active li {
+    padding-bottom: 30px;
+}
+
+.active.openMenu {
+    display: none;
+}
+
+.search {
+    border: 1px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.search input[type=text] {
+    font-size: 17px;
+    border: none;
+    float: left;
+    background: transparent;
+    height: 27px;
+    border-bottom: 1px solid #324950;
+  }
+  
+
+ .search button {
+    float: left;
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    border-bottom: 1px solid #324950;
+    height: 27px;
+  }
+
+  .search img {
+      margin-top: -5px;
+  }

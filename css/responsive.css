@@ -1,0 +1,205 @@
+@media (max-width: 1920px){
+    .headerImg{
+        height: 500px;
+        background-size: 110%;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1600px){
+    .headerImg{
+        height: 500px;
+        background-size: 150%;
+        background-position: bottom;
+    }
+}
+
+
+@media (max-width: 1024px){
+    .footer_link {
+        margin: 0 5px;
+    }
+    .headerImg {
+        height: 250px;
+        width: 100%;
+        background-position: bottom;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .TomatoKind .TomatoKind_items{
+        height: 250px;
+        width: 100%;
+    }
+
+    .TomatoOne {
+        padding-bottom: 70px;
+    }
+
+    .vision_img img {
+        height: 250px;
+        width: 100%;
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+    .Menu_item a {
+        font-size: 16px;
+    }
+    .Menu_item {
+        margin: 0 5px;
+    }
+    .footer_item a {
+        font-size: 14px;
+    }
+    .footer_menu {
+        display: block;
+        margin-left: -20px;
+        text-align: center;
+        }
+    .search {
+        margin-bottom: -30px;
+    }
+
+    .product_item img {
+        height: 100px;
+        height: 100%;
+    }
+    header {
+        background-position: bottom;
+    }
+    .vision_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .Profile {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .Profile .title_text {
+        text-align: center;
+        
+    }
+
+    .XXX {
+        display: flex;
+        justify-content: center;
+    }
+    .search {
+        margin-bottom: 20px;
+    }
+
+    .Logo2_text {
+        font-size: 25px;
+    }
+    .TomatoOne .title_text h1, h2{
+        font-size: 40px;
+    }
+
+    .textBlock_item {
+        margin-left: 20px;
+    }
+
+    .TomatoOne .title{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Menu_item {
+        margin-top: -25px;
+    }
+
+    .footer_item {
+        margin: 0 5px;
+    }
+    .footer_link {
+        margin-bottom: 15px;
+    }
+    .openMenu {
+        visibility: visible;
+    }
+    .MenuUp{
+        display: none;
+    }
+
+    .title {
+        padding: 140px 0 170px 0;
+    }
+    .middle {
+        text-align: center;
+    }
+    .vision_img {
+        padding-top: 50px;
+    }
+
+    .mainActiv_product p {
+        margin-bottom: 0px;
+    }
+    .mainActiv_img {
+        margin-bottom: -50px;
+    }
+    .mainActiv_last {
+        margin-bottom: 30px;
+    }
+
+
+    .Logo2 {
+        text-align: center;
+    }
+    .TomatoImage img {
+        width: 100%;
+    }
+
+    .code_button input {
+        margin-top: 20px;
+    }
+    
+}
+
+
+@media (max-width: 575px){ 
+    .BurgerMenu {
+        margin-right: 25px;
+    }
+
+    .headerImg {
+        height: 240px;
+        background-position: bottom;
+        background-size: 300%;
+    }
+}
+
+@media (max-width: 400px){
+    .BurgerMenu { 
+        margin-right: 25px;
+     }
+    .search input {
+        width: 70%;
+    }
+    
+    .title {
+        padding: 100px 0 120px 0;
+    }
+}
