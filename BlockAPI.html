@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=320, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Fetch API.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker
+            .register('/sw.js')
+            .then(function() {
+                console.log('Service worker registered!');
+            });
+        }
+    </script>
+    <title>Block API try</title>
+</head>
+
+<body>
+    <ul>
+        <div id="caps"></div>
+</ul>
+
+
+    <script>
+        fetch("https://restcountries.com/v3.1/region/europe")
+            .then(resolve => resolve.json())
+            .then(data => {
+                const listOfCaps=document.createElement('ul');
+                listOfCaps.style.columnCount = '2';
+                listOfCaps.style.columnGap = '50px';
+                data.forEach((country) =>
+                {
+                    var listViewItem = document.createElement('li');
+                    listViewItem.appendChild(document.createTextNode(country.capital));
+                    listOfCaps.appendChild(listViewItem);
+                });
+                document.getElementById('caps').appendChild(listOfCaps);
+            })
+    </script>
+</body>
+</html>
